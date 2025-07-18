@@ -14,6 +14,9 @@
     max-width: 1140px;
     margin: 40px auto;
 }
+.text-primary{
+    color: #FF900E;
+}
 .dark-1{
   color: #131313;
 }
@@ -84,4 +87,26 @@ nav ul li a{
 .banner-img{
     width: 100%;
 }
-
+/* our fesures section */
+.our-features{
+max-width: 537px;
+max-height: 308px;
+margin: auto auto;
+ 
+margin-left: 60px;
+padding: 10px;
+}
+.our-features > p{
+    line-height: 20px;
+    color: #727272;
+    margin: 10px 0;
+}
+.section-title{
+    max-width: 468px;
+    font-size: 2.5rem;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
