@@ -37,6 +37,11 @@
     display: flex;
     
 }
+.section-title{
+   
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 
 /* header-parent */
 .header-parent{
@@ -97,7 +102,7 @@ main{
 main > section{
     margin-top: 130px;
 }
-/* our fesures section */
+/* our fesures section start */
 .our-features{
 max-width: 530px;
 margin-left: 130px;
@@ -113,8 +118,9 @@ margin-left: 130px;
     margin: 10px 0;
 }
 .section-title{
-    max-width: 468px;
-    font-size: 2.5rem;
+   
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 .team-img-container{
     display: grid;
@@ -122,6 +128,47 @@ margin-left: 130px;
     gap: 24px;
   
 }
+/* our fesures section end */
+/* Features will enjoy start */
+.features{
+    gap: 140px;
+}
+.features-card{
+ 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0,0.1);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+.features-card .feature-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.festures-Architect img{
+    width: 100%;
+}
+#experience-badge{
+    padding: 45px 42px;
+    margin-top: -110px;
+    margin-left: -100px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+/* Features will enjoy start end*/
 
 /* resposnsive media query */
 
